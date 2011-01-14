@@ -1,14 +1,14 @@
-This is basically a REPO manifest that is designed to pull everything
-needed in order to build the Sapphire ROM for DROID.
-
 This manifest was originally based on that given by Topsy at
 
   http://github.org/Topsy
+
+and CVPCS at
+  http://github.org/cvpcs
 
 without which I would have had much difficulty beginning this project.
 
 To check out the source, retrieve REPO from the android kernel
 git repository, and execute the following command:
 
-  repo init -u http://github.com/cvpcs/sapphire.git -b eclair
+  repo init -u http://github.com/teampww/android_manifest.git -b froyo
   repo sync
